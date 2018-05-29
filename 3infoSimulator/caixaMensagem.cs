@@ -66,6 +66,8 @@ namespace _3infoSimulator
                 a.setTadeu();
                 a.setRaul();
                 a.setErit();
+                MainPage main = new MainPage();
+                main.Show();
             }
             this.Close();
         }
@@ -89,9 +91,10 @@ namespace _3infoSimulator
                 a.setRaul();
             }
             if (numero == 5)
-            {               
+            {
+                MainPage main = new MainPage();
+                main.Show();
             }
-            a.setErit();
             this.Close();
         }
 
@@ -115,13 +118,19 @@ namespace _3infoSimulator
             }
             if (numero == 5)
             {
+                MainPage main = new MainPage();
+                main.Show();
             }
-            a.setTadeu();
             this.Close();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            if (numero == 5)
+            {
+                MainPage main = new MainPage();
+                main.Show();
+            }
             this.Close();
         }
     }

@@ -57,6 +57,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="caixaMensagem.resx">
@@ -64,6 +70,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -73,6 +82,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -86,6 +96,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ETESP_Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudio58.com.br_8179.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fotos-visita-inspecao-005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\340b0c34d8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800px-Linha_1_-_Azul.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\051-Casa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\erit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tadeu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

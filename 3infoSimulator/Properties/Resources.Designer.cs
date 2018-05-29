@@ -93,6 +93,16 @@ namespace _3infoSimulator.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap erit {
+            get {
+                object obj = ResourceManager.GetObject("erit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap estudio58_com_br_8179 {
             get {
                 object obj = ResourceManager.GetObject("estudio58.com.br_8179", resourceCulture);
@@ -126,6 +136,26 @@ namespace _3infoSimulator.Properties {
         internal static System.Drawing.Bitmap mapa {
             get {
                 object obj = ResourceManager.GetObject("mapa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap raul {
+            get {
+                object obj = ResourceManager.GetObject("raul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tadeu {
+            get {
+                object obj = ResourceManager.GetObject("tadeu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

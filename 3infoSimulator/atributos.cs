@@ -15,6 +15,22 @@ namespace _3infoSimulator
 
         static int p1;
 
+        public String maior()
+        {
+            int maiorint = erit;
+            String maior = "erit";
+            if (erit < raul)
+            {
+                maior = "raul";
+                maiorint = raul;
+            }
+            if(maiorint<tadeu)
+            {
+                maior = "tadeu";
+                maiorint = tadeu;
+            }
+            return maior;
+        }
         public int getRaul()
         {
             return raul;

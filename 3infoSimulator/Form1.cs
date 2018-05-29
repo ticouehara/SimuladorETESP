@@ -42,7 +42,8 @@ namespace _3infoSimulator
             caixaMensagem form4 = new caixaMensagem("voce tem amigos?????????????????", "sim", "nao :((((((((((((((", "se voce descobrir esse botao voce é hacker mano o.O", "se voce descobrir esse botao voce é hacker mano o.O", 4, 2);
             form4.ShowDialog();
             caixaMensagem form5 = new caixaMensagem("voce normalmente é soado por seus amigos?????????????????", "sim infelismente", "nao", "se voce descobrir esse botao voce é hacker mano o.O", "se voce descobrir esse botao voce é hacker mano o.O", 5, 2);
-            form5.ShowDialog();           
+            form5.ShowDialog();
+            this.Hide();
         }
     }
 }

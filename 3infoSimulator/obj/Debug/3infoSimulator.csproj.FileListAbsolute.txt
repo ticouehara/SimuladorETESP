@@ -1,0 +1,10 @@
+c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\obj\Debug\_3infoSimulator.caixaMensagem.resources
+c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\obj\Debug\_3infoSimulator.Form1.resources
+c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\obj\Debug\_3infoSimulator.Properties.Resources.resources
+c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\obj\Debug\3infoSimulator.csproj.GenerateResource.Cache
+c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\bin\Debug\3infoSimulator.exe.config
+c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\bin\Debug\3infoSimulator.exe
+c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\bin\Debug\3infoSimulator.pdb
+c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\obj\Debug\3infoSimulator.exe
+c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\obj\Debug\3infoSimulator.pdb
+c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\obj\Debug\3infoSimulator.csprojResolveAssemblyReference.cache

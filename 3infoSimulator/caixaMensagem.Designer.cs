@@ -77,11 +77,10 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 27);
+            this.label2.Location = new System.Drawing.Point(12, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 18);
+            this.label2.Size = new System.Drawing.Size(260, 68);
             this.label2.TabIndex = 4;
             this.label2.Text = "label1";
             // 
@@ -99,7 +98,6 @@
             this.Name = "caixaMensagem";
             this.Text = "caixaMensagem";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblNome = new System.Windows.Forms.Label();
             this.picFoto = new System.Windows.Forms.PictureBox();
@@ -45,6 +46,20 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.prgBarFome = new System.Windows.Forms.ProgressBar();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.prgBarSede = new System.Windows.Forms.ProgressBar();
+            this.label11 = new System.Windows.Forms.Label();
+            this.prgBarCagar = new System.Windows.Forms.ProgressBar();
+            this.label12 = new System.Windows.Forms.Label();
+            this.prgBarFelicidade = new System.Windows.Forms.ProgressBar();
+            this.label13 = new System.Windows.Forms.Label();
+            this.prgBarEnergia = new System.Windows.Forms.ProgressBar();
+            this.label14 = new System.Windows.Forms.Label();
+            this.lblDia = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFoto)).BeginInit();
             this.panel1.SuspendLayout();
@@ -179,11 +194,10 @@
             // pictureBox5
             // 
             this.pictureBox5.BackgroundImage = global::_3infoSimulator.Properties.Resources._800px_Linha_1___Azul;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox5.Image = global::_3infoSimulator.Properties.Resources._800px_Linha_1___Azul;
-            this.pictureBox5.Location = new System.Drawing.Point(424, 94);
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(402, 94);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(147, 98);
+            this.pictureBox5.Size = new System.Drawing.Size(200, 98);
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
             // 
@@ -237,12 +251,145 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "MAPA-MUNDI";
             // 
+            // prgBarFome
+            // 
+            this.prgBarFome.Location = new System.Drawing.Point(941, 131);
+            this.prgBarFome.Name = "prgBarFome";
+            this.prgBarFome.Size = new System.Drawing.Size(125, 23);
+            this.prgBarFome.TabIndex = 2;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(917, 7);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(97, 38);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "status";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(846, 131);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(44, 20);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "fome";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(846, 170);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 20);
+            this.label10.TabIndex = 14;
+            this.label10.Text = "sede";
+            // 
+            // prgBarSede
+            // 
+            this.prgBarSede.Location = new System.Drawing.Point(941, 170);
+            this.prgBarSede.Name = "prgBarSede";
+            this.prgBarSede.Size = new System.Drawing.Size(125, 23);
+            this.prgBarSede.TabIndex = 15;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(846, 213);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(92, 20);
+            this.label11.TabIndex = 16;
+            this.label11.Text = "cagar/mijar";
+            // 
+            // prgBarCagar
+            // 
+            this.prgBarCagar.Location = new System.Drawing.Point(941, 213);
+            this.prgBarCagar.Name = "prgBarCagar";
+            this.prgBarCagar.Size = new System.Drawing.Size(125, 23);
+            this.prgBarCagar.TabIndex = 17;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(846, 256);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(79, 20);
+            this.label12.TabIndex = 18;
+            this.label12.Text = "felicidade";
+            // 
+            // prgBarFelicidade
+            // 
+            this.prgBarFelicidade.Location = new System.Drawing.Point(941, 256);
+            this.prgBarFelicidade.Name = "prgBarFelicidade";
+            this.prgBarFelicidade.Size = new System.Drawing.Size(125, 23);
+            this.prgBarFelicidade.TabIndex = 19;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(846, 304);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(60, 20);
+            this.label13.TabIndex = 20;
+            this.label13.Text = "energia";
+            // 
+            // prgBarEnergia
+            // 
+            this.prgBarEnergia.Location = new System.Drawing.Point(941, 304);
+            this.prgBarEnergia.Name = "prgBarEnergia";
+            this.prgBarEnergia.Size = new System.Drawing.Size(125, 23);
+            this.prgBarEnergia.TabIndex = 21;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(937, 367);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(36, 20);
+            this.label14.TabIndex = 22;
+            this.label14.Text = "Dia:";
+            // 
+            // lblDia
+            // 
+            this.lblDia.AutoSize = true;
+            this.lblDia.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDia.Location = new System.Drawing.Point(978, 367);
+            this.lblDia.Name = "lblDia";
+            this.lblDia.Size = new System.Drawing.Size(42, 20);
+            this.lblDia.TabIndex = 23;
+            this.lblDia.Text = "(dia)";
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 3500;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1018, 490);
+            this.ClientSize = new System.Drawing.Size(1078, 490);
+            this.Controls.Add(this.lblDia);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.prgBarEnergia);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.prgBarFelicidade);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.prgBarCagar);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.prgBarSede);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.prgBarFome);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "MainPage";
@@ -260,6 +407,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -282,5 +430,19 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.PictureBox picFoto;
+        private System.Windows.Forms.ProgressBar prgBarFome;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ProgressBar prgBarSede;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ProgressBar prgBarCagar;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ProgressBar prgBarFelicidade;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ProgressBar prgBarEnergia;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lblDia;
+        private System.Windows.Forms.Timer timer1;
     }
 }

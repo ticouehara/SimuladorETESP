@@ -8,14 +8,15 @@ c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulat
 c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\obj\Debug\3infoSimulator.exe
 c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\obj\Debug\3infoSimulator.pdb
 c:\users\etesp\documents\visual studio 2012\Projects\3infoSimulator\3infoSimulator\obj\Debug\3infoSimulator.csprojResolveAssemblyReference.cache
-C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\bin\Debug\3infoSimulator.exe.config
-C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\bin\Debug\3infoSimulator.exe
-C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\bin\Debug\3infoSimulator.pdb
 C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\obj\Debug\3infoSimulator.csprojAssemblyReference.cache
 C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\obj\Debug\_3infoSimulator.caixaMensagem.resources
 C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\obj\Debug\_3infoSimulator.Form1.resources
+C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\obj\Debug\_3infoSimulator.MainPage.resources
 C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\obj\Debug\_3infoSimulator.Properties.Resources.resources
 C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\obj\Debug\3infoSimulator.csproj.GenerateResource.cache
 C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\obj\Debug\3infoSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\bin\Debug\3infoSimulator.exe.config
+C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\bin\Debug\3infoSimulator.exe
+C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\bin\Debug\3infoSimulator.pdb
 C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\obj\Debug\3infoSimulator.exe
 C:\Users\Victor Uehara\SimuladorETESP\3infoSimulator\obj\Debug\3infoSimulator.pdb
